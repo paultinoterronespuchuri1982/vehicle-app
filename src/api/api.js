@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5500", // si usas 5500
+  baseURL: "http://localhost:3001", // json-server (npm run json-server)
 });
 
 export default api;
