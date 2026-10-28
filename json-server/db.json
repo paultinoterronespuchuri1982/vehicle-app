@@ -2,19 +2,19 @@
   "vehicles": [
     {
       "id": 1,
-      "plate": "ABC-1234",
-      "brand": "Toyota",
-      "model": "Corolla",
-      "year": 2018,
-      "color": "Prata"
+      "placa": "ABC-1234",
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "ano": 2020,
+      "cor": "Preto"
     },
     {
       "id": 2,
-      "plate": "XYZ-9876",
-      "brand": "Honda",
-      "model": "Civic",
-      "year": 2020,
-      "color": "Preto"
+      "placa": "XYZ-9876",
+      "marca": "Honda",
+      "modelo": "Civic",
+      "ano": 2020,
+      "cor": "Prata"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "vehicle-app",
-  "main": "expo-router/entry",
+  "main": "expo/AppEntry",
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
@@ -9,8 +9,7 @@
     "json-server": "json-server --watch json-server/db.json --port 3001",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint",
-    "server": "json-server --watch db.json --port 3001"
+    "lint": "expo lint"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",

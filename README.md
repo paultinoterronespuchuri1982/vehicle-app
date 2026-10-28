@@ -32,13 +32,9 @@ troque `localhost` pelo IP do seu computador na mesma rede.
 - `src/navigation/AppNavigator.js`: pilha de navegação do app.
 - `json-server/db.json`: dados de exemplo usados pelo json-server.
 
-## Pendências conhecidas
+## Notas
 
-- **Duas entradas de app.** `package.json` aponta para `expo-router/entry`, então o app
-  abre as telas de exemplo de `app/`, não as telas de veículos em `src/`. `App.js` só é usado
-  se o ponto de entrada mudar.
-- **Dados em dois formatos.** O código usa `placa`, `marca`, `modelo`, `ano`, `cor`.
-  `json-server/db.json` usa `plate`, `brand`, `model`, `year`, `color`. A raiz tem outro `db.json`
-  com os nomes em português, que não é usado pelo script.
-- **Arquivos vazios sem uso:** `JSON` e `babel.config.js`.
-- Não há testes automatizados.
+- **Entrada do app:** `package.json` usa `expo/AppEntry`, que carrega `App.js` e as telas de `src/`.
+  A pasta `app/` é da plantilla do Expo (expo-router) e não é usada. Pode ser removida, mas não o fiz.
+- **Dados:** `json-server/db.json` usa os mesmos nomes do código (`placa`, `marca`, `modelo`, `ano`, `cor`).
+- **Testes:** o projeto ainda não tem testes automatizados.
